@@ -1,0 +1,8 @@
+﻿根据视频资源练习：https://www.bilibili.com/video/BV13D4y1u7XX?spm_id_from=333.788.player.switch&vd_source=9edc8578884f22241b031a7347806e22&p=9
+
+掌握知识板块：
+1，依赖属性
+2，Binding
+3，样式
+4，模板
+5，资源
