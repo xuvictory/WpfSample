@@ -1,0 +1,7 @@
+﻿项目名称：图书馆程序
+
+
+掌握知识板块：
+1，Binding
+2，DataContext
+3，INotifyPropertyChanged
