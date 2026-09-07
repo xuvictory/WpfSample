@@ -4,4 +4,5 @@
   <Project Path="WpfApp3/WpfApp3.csproj" Id="7ad2f1bf-913c-475c-a877-dad8e27c9278" />
   <Project Path="WpfApp4/WpfApp4.csproj" Id="92a4c4a3-35b2-4041-afc7-374e7a5c593e" />
   <Project Path="WpfApp5/WpfApp5.csproj" Id="1993911a-3a4a-4ab6-998c-e93e62a346fe" />
+  <Project Path="WpfApp6/WpfApp6.csproj" Id="555a666f-1818-4af6-9ef5-9e08237a5291" />
 </Solution>
