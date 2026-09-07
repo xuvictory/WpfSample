@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -31,7 +32,8 @@ namespace WpfApp2
             set
             {
                 _userName = value;
-                PropertyChangedNotify(nameof(UserName));
+                //PropertyChangedNotify(nameof(UserName));
+                PropertyChangedNotify();
             }
         }
 
@@ -42,13 +44,22 @@ namespace WpfApp2
             set
             {
                 _password = value;
-                PropertyChangedNotify(nameof(Password));
+                //PropertyChangedNotify(nameof(Password));
+                PropertyChangedNotify();
             }
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        private void PropertyChangedNotify(string propertyName)
+        //private void PropertyChangedNotify(string propertyName)
+        //{
+        //    if (PropertyChanged != null)
+        //    {
+        //        PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        //    }
+        //}
+
+        private void PropertyChangedNotify([CallerMemberName]string propertyName = "")
         {
             if (PropertyChanged != null)
             {
