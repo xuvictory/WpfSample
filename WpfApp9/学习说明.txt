@@ -1,0 +1,9 @@
+﻿掌握知识板块
+
+1，引用mvvm框架MvvmLight
+
+基类：ViewModelBase
+
+通知事件方法：RaisePropertyChanged();
+
+Commnad按钮：RelayCommand
