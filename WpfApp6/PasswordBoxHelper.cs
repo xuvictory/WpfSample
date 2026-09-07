@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Windows;
@@ -31,7 +32,19 @@ namespace WpfApp6
             if (pwdbox == null) return;
 
             pwdbox.Password = (string)e.NewValue;
+
+            //设置光标移动到最后一位
+            SetSelection(pwdbox, pwdbox.Password.Length, 0);
         }
+
+        private static void SetSelection(PasswordBox passwordBox, int start, int length)
+        {
+            passwordBox.GetType()
+            .GetMethod("Select", BindingFlags.Instance | BindingFlags.NonPublic)
+            ?.Invoke(passwordBox, new object[] { start, length });
+        }
+
+        /*******************************************************************************************************************************************/
 
 
 
