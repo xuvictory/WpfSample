@@ -1,0 +1,21 @@
+﻿掌握知识板块
+
+1，引用mvvm框架Prism.DryIoc
+
+基类：PrismApplication
+
+通知事件方法：BindableBase->SetProperty
+
+Commnad按钮：DelegateCommand
+
+消息：EventAggregator、IEventAggregator
+
+区域：Region， IRegionManager
+
+弹窗：IDialogService
+
+
+2，操作步骤
+
+引用类库：Prism.DryIoc
+改造：App.xaml、App.xaml.cx
