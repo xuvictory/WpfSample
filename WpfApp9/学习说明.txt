@@ -7,3 +7,5 @@
 通知事件方法：RaisePropertyChanged();
 
 Commnad按钮：RelayCommand
+
+消息：Messenger

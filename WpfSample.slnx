@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="WpfApp1/WpfApp1.csproj" />
+  <Project Path="WpfApp10/WpfApp10.csproj" Id="e824b7a1-69ed-4132-9610-5a7fdfa26db5" />
   <Project Path="WpfApp2/WpfApp2.csproj" Id="960206db-5d89-43c0-95c0-cc2cf646ba29" />
   <Project Path="WpfApp3/WpfApp3.csproj" Id="7ad2f1bf-913c-475c-a877-dad8e27c9278" />
   <Project Path="WpfApp4/WpfApp4.csproj" Id="92a4c4a3-35b2-4041-afc7-374e7a5c593e" />

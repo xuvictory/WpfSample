@@ -1,0 +1,11 @@
+﻿掌握知识板块
+
+1，引用mvvm框架CommunityToolkit.Mvvm
+
+基类：ObservableObject、ObservableRecipient
+
+通知事件方法：SetProperty(ref _name, value);
+
+Commnad按钮：RelayCommand
+
+消息：Messenger
